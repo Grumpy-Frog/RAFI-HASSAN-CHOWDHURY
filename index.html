@@ -5,40 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rafi Hassan Chowdhury | AI Researcher</title>
     <meta name="description" content="Portfolio of Rafi Hassan Chowdhury - AI Researcher, ML Engineer, and Lecturer. Specialist in Vision Transformers, NLP, and Generative AI." />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              slate: {
-                850: '#151e2e',
-                900: '#0f172a',
-                950: '#020617',
-              },
-              cyan: {
-                450: '#00d4ff',
-              }
-            },
-            fontFamily: {
-              sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-            },
-            animation: {
-              'blob': 'blob 7s infinite',
-            },
-            keyframes: {
-              blob: {
-                '0%': { transform: 'translate(0px, 0px) scale(1)' },
-                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-                '100%': { transform: 'translate(0px, 0px) scale(1)' },
-              }
-            }
-          }
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-slate-850: #151e2e;
+        --color-slate-900: #0f172a;
+        --color-slate-950: #020617;
+        --color-cyan-450: #00d4ff;
+        
+        --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        
+        --animate-blob: blob 7s infinite;
+        
+        @keyframes blob {
+          0% { transform: translate(0px, 0px) scale(1); }
+          33% { transform: translate(30px, -50px) scale(1.1); }
+          66% { transform: translate(-20px, 20px) scale(0.9); }
+          100% { transform: translate(0px, 0px) scale(1); }
         }
       }
-    </script>
+    </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
       body {
