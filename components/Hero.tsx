@@ -75,9 +75,16 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.5 }}
               className="text-center md:text-left"
             >
-              <span className="inline-block py-1 px-3 rounded-full bg-cyan-900/30 text-cyan-400 text-sm font-semibold mb-6 border border-cyan-800/50 backdrop-blur-sm">
-                Welcome to my portfolio
-              </span>
+              <div className="relative inline-block mb-8 group">
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+                <span className="relative flex items-center gap-2 px-4 py-1.5 bg-slate-950 rounded-full border border-slate-800 text-sm font-medium tracking-wider text-cyan-400 uppercase">
+                  <span className="flex h-2 w-2 relative">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+                  </span>
+                  Welcome to my portfolio
+                </span>
+              </div>
               
               <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6">
                 Rafi Hassan <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Chowdhury</span>
