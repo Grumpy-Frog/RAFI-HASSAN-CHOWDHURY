@@ -125,35 +125,28 @@ const Hero: React.FC = () => {
             <motion.div
                 initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
                 animate={{ opacity: 1, scale: 1, rotate: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
                 className="flex justify-center md:justify-end relative"
             >
                 <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[30rem] lg:h-[30rem]">
-                    {/* Decorative glow/blob behind image */}
-                    <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-cyan-500/10 to-blue-600/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
-                    
-                    {/* Border Ring - soft dashed */}
-                    <div className="absolute -inset-4 rounded-full border border-slate-700/30 border-dashed animate-[spin_60s_linear_infinite]"></div>
+                    {/* Decorative glow behind image */}
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-cyan-500/20 rounded-full blur-[80px] -z-10 animate-pulse"></div>
                     
                     {/* The Image Itself */}
-                    <div className="w-full h-full rounded-full relative z-10 group">
-                         {/* Mask Container */}
-                        <div className="w-full h-full rounded-full overflow-hidden relative"
-                             style={{
-                               maskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)',
-                               WebkitMaskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)'
-                             }}
-                        >
+                    <div className="w-full h-full relative z-10 group">
+                        <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-blue-600/20 rounded-[2rem] transform rotate-6 group-hover:rotate-3 transition-transform duration-500"></div>
+                        <div className="absolute inset-0 bg-slate-800/50 rounded-[2rem] transform -rotate-3 group-hover:-rotate-1 transition-transform duration-500 border border-white/5 backdrop-blur-sm"></div>
+                        
+                        <div className="relative w-full h-full rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl shadow-cyan-900/20">
                             <img 
-                                src="https://scontent.fdac189-1.fna.fbcdn.net/v/t39.30808-6/635567580_1991420695064989_7450258339709287815_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VCNAVw-515MQ7kNvwEgfFXr&_nc_oc=AdkMkwhBLfD_hyKXFBL5HugsTmBmi_yx4l6YAVrvOPNcAtoLwO0XxRQv17FEw2a91jk&_nc_zt=23&_nc_ht=scontent.fdac189-1.fna&_nc_gid=dRWflHUwjUeP81UMDjvQJw&oh=00_Afseb0DGXq3-yUoLv5-Zg2_QswEtRGU8t6OwdYl1x4L-9Q&oe=6996408A" 
+                                src="https://scontent.fdac189-1.fna.fbcdn.net/v/t39.30808-6/635567580_1991420695064989_7450258339709287815_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_ohc=zUhXhxGQvL0Q7kNvwHN1ets&_nc_oc=Adn0r3wZ__1xQz0qvwFqXO-9H5joJvMRZTmM8T9fSFS2g5a2C3H8q2OYom0WOm3RknI&_nc_zt=23&_nc_ht=scontent.fdac189-1.fna&_nc_gid=H1iLbG5_cPzK2QvrRoeigQ&oh=00_Afsy39MkXgRnoQSF2qmInmUkyB9GXVMdpyNh8P3ohWYLFg&oe=699E9A0A" 
                                 alt="Rafi Hassan Chowdhury" 
                                 className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                             />
-                            {/* Inner Vignette for better blending */}
-                            <div className="absolute inset-0 rounded-full shadow-[inset_0_0_60px_20px_rgba(2,6,23,0.9)]"></div>
+                            {/* Subtle overlay */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-60"></div>
                         </div>
                     </div>
-                    
                 </div>
             </motion.div>
         </div>

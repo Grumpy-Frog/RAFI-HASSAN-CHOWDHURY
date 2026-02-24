@@ -40,8 +40,8 @@ function App() {
               <p className="text-slate-400 leading-relaxed text-lg">
                 {PERSONAL_INFO.bio}
               </p>
-              <div className="glass-card p-6 rounded-xl border-l-4 border-cyan-500">
-                <p className="text-slate-300 italic">
+              <div className="relative pl-6 border-l-2 border-cyan-500/50 py-2">
+                <p className="text-slate-300 italic text-lg leading-relaxed">
                   "Driven by the potential of Artificial Intelligence to solve complex, real-world problems through rigorous research and engineering."
                 </p>
               </div>
