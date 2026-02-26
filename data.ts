@@ -118,7 +118,9 @@ export const ML_PROJECTS: Project[] = [
     description: "A lightweight AI-powered computer vision mobile app for Bangla-speaking children’s early literacy and pronunciation learning.",
     results: "Achieved T-value 6.03, p-value 0.00019 in learning outcomes.",
     type: "ML",
-    tech: ["Computer Vision", "Deep Learning", "Mobile Dev"]
+    tech: ["Computer Vision", "Deep Learning", "Mobile Dev"],
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/miniminds/800/450"
   } as any,
   {
     title: "Meeting Minutes",
@@ -126,7 +128,9 @@ export const ML_PROJECTS: Project[] = [
     role: "Lead Researcher & Backend",
     type: "ML",
     tech: ["Whisper", "Wav2Vec2", "GPT-3.5", "FastAPI", "Django"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/meeting/800/450"
   },
   {
     title: "DoodleIt",
@@ -134,27 +138,35 @@ export const ML_PROJECTS: Project[] = [
     role: "Team Leader",
     type: "ML",
     tech: ["Pix2Pix GAN", "Python", "PyTorch"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/doodleit/800/450"
   },
   {
     title: "BongIPA",
     description: "Bangla Regional Text to IPA Converter.",
     role: "Project Initiator & Researcher",
     type: "ML",
-    tech: ["NLP", "Python", "Transformers"]
+    tech: ["NLP", "Python", "Transformers"],
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/bongipa/800/450"
   },
   {
     title: "Travel Mode Prediction",
     description: "Predicting long-distance travel mode preferences using ML algorithms vs Discrete Choice Models.",
     type: "ML",
-    tech: ["Random Forest", "Binary Logit", "Data Analysis"]
+    tech: ["Random Forest", "Binary Logit", "Data Analysis"],
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/travel/800/450"
   },
   {
     title: "Bengali Character Augmentation",
     description: "Study on Maximizing Generalization using different augmentation techniques (CLAHE, Affine, etc.).",
     results: "97.48% Accuracy on Ekush dataset.",
     type: "ML",
-    tech: ["Image Processing", "Augmentation", "ViT"]
+    tech: ["Image Processing", "Augmentation", "ViT"],
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/bengali/800/450"
   } as any
 ];
 
@@ -164,35 +176,45 @@ export const SE_PROJECTS: Project[] = [
     description: "Full-stack educational platform enabling classrooms, assignments, exams, and video meetings.",
     type: "SE",
     tech: ["Django", "Agora SDK", "PostgreSQL", "Google Auth"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/classroom/800/450"
   },
   {
     title: "IUTCS & IUTRS Websites",
     description: "Official websites for IUT Computer Society and Robotics Society for event management and blogs.",
     type: "SE",
     tech: ["Python", "Django", "MySQL", "Bootstrap"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/iutcs/800/450"
   },
   {
     title: "Untitled Survival Game",
     description: "3D horror puzzle game with randomized mazes and A* pathfinding bots.",
     type: "SE",
     tech: ["C++", "OpenGL", "GLSL", "OpenAL"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/survival/800/450"
   },
   {
     title: "Untitled Tank Game",
     description: "2D shooter game featuring PvP, co-op modes, and AI enemies.",
     type: "SE",
     tech: ["C++", "SFML"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/tank/800/450"
   },
   {
     title: "Java Music Player",
     description: "Music player with MySQL storage, frequency visualizer, and streaming.",
     type: "SE",
     tech: ["Java", "MySQL", "JavaFX"],
-    github: "#"
+    github: "#",
+    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoPreview: "https://picsum.photos/seed/music/800/450"
   }
 ];
 

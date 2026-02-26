@@ -15,6 +15,8 @@ export interface Project {
   tech: string[];
   github?: string;
   live?: string;
+  videoUrl?: string;
+  videoPreview?: string;
   type: 'ML' | 'SE';
 }
 
