@@ -146,8 +146,9 @@ const Hero: React.FC = () => {
                         
                         <div className="relative w-full h-full rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl shadow-cyan-900/20">
                             <img 
-                                src="https://scontent.fdac189-1.fna.fbcdn.net/v/t39.30808-6/635567580_1991420695064989_7450258339709287815_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_ohc=zUhXhxGQvL0Q7kNvwHN1ets&_nc_oc=Adn0r3wZ__1xQz0qvwFqXO-9H5joJvMRZTmM8T9fSFS2g5a2C3H8q2OYom0WOm3RknI&_nc_zt=23&_nc_ht=scontent.fdac189-1.fna&_nc_gid=H1iLbG5_cPzK2QvrRoeigQ&oh=00_Afsy39MkXgRnoQSF2qmInmUkyB9GXVMdpyNh8P3ohWYLFg&oe=699E9A0A" 
+                                src="https://scontent.fdac189-1.fna.fbcdn.net/v/t39.30808-6/635567580_1991420695064989_7450258339709287815_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=13d280&_nc_ohc=1A36MKGrjLEQ7kNvwFBaANw&_nc_oc=AdnIuQFucPU_kVRifIcHoW3JK24S3QY6a-489mOnaYkNb3h3SIDUCPgiGWqag9v0LJs&_nc_zt=23&_nc_ht=scontent.fdac189-1.fna&_nc_gid=cZtse-QrYEu4rA6NmfIJaQ&_nc_ss=8&oh=00_AfxLeJXxxBEaFzxt54kfNVayPPeb1O3ChIm-5DzOd3ivDQ&oe=69B8BFCA" 
                                 alt="Rafi Hassan Chowdhury" 
+                                referrerPolicy="no-referrer"
                                 className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                             />
                             {/* Subtle overlay */}
